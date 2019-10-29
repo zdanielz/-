@@ -72,6 +72,10 @@ int main(void) {
 				{
 					buf[j] = " ";
 				}
+                                else 
+                                {
+                                        buf[j] = "?";
+                                }
 			}
 		}
 		for (int j = 0; j < size; j++)
